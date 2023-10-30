@@ -26,6 +26,9 @@ dependencies:
   react-intersection-observer:
     specifier: ^9.5.2
     version: registry.npmmirror.com/react-intersection-observer@9.5.2(react@18.2.0)
+  react-vertical-timeline-component:
+    specifier: ^3.6.0
+    version: registry.npmmirror.com/react-vertical-timeline-component@3.6.0(react@18.2.0)
 
 devDependencies:
   '@types/node':
@@ -37,6 +40,9 @@ devDependencies:
   '@types/react-dom':
     specifier: ^18.2.14
     version: registry.npmmirror.com/@types/react-dom@18.2.14
+  '@types/react-vertical-timeline-component':
+    specifier: ^3.3.3
+    version: registry.npmmirror.com/@types/react-vertical-timeline-component@3.3.3
   autoprefixer:
     specifier: ^10.4.16
     version: registry.npmmirror.com/autoprefixer@10.4.16(postcss@8.4.31)
@@ -283,6 +289,14 @@ packages:
       '@types/react': registry.npmmirror.com/@types/react@18.2.33
     dev: true
 
+  registry.npmmirror.com/@types/react-vertical-timeline-component@3.3.3:
+    resolution: {integrity: sha512-xmKeQ9TtZLeGtsWQx2im0U79wnC0M2F/FPEAHP7uS3G9SAVgis1XSHzq/mq7XrcbnI9eiZbL7dhiy/TqCuDc7w==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/react-vertical-timeline-component/-/react-vertical-timeline-component-3.3.3.tgz}
+    name: '@types/react-vertical-timeline-component'
+    version: 3.3.3
+    dependencies:
+      '@types/react': registry.npmmirror.com/@types/react@18.2.33
+    dev: true
+
   registry.npmmirror.com/@types/react@18.2.33:
     resolution: {integrity: sha512-v+I7S+hu3PIBoVkKGpSYYpiBT1ijqEzWpzQD62/jm4K74hPpSP7FF9BnKG6+fg2+62weJYkkBWDJlZt5JO/9hg==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/react/-/react-18.2.33.tgz}
     name: '@types/react'
@@ -332,7 +346,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: registry.npmmirror.com/browserslist@4.22.1
-      caniuse-lite: registry.npmmirror.com/caniuse-lite@1.0.30001555
+      caniuse-lite: registry.npmmirror.com/caniuse-lite@1.0.30001558
       fraction.js: registry.npmmirror.com/fraction.js@4.3.7
       normalize-range: registry.npmmirror.com/normalize-range@0.1.2
       picocolors: registry.npmmirror.com/picocolors@1.0.0
@@ -378,7 +392,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: registry.npmmirror.com/caniuse-lite@1.0.30001555
+      caniuse-lite: registry.npmmirror.com/caniuse-lite@1.0.30001558
       electron-to-chromium: registry.npmmirror.com/electron-to-chromium@1.4.569
       node-releases: registry.npmmirror.com/node-releases@2.0.13
       update-browserslist-db: registry.npmmirror.com/update-browserslist-db@1.0.13(browserslist@4.22.1)
@@ -400,10 +414,10 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  registry.npmmirror.com/caniuse-lite@1.0.30001555:
-    resolution: {integrity: sha512-NzbUFKUnJ3DTcq6YyZB6+qqhfD112uR3uoEnkmfzm2wVzUNsFkU7AwBjKQ654Sp5cau0JxhFyRSn/tQZ+XfygA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/caniuse-lite/-/caniuse-lite-1.0.30001555.tgz}
+  registry.npmmirror.com/caniuse-lite@1.0.30001558:
+    resolution: {integrity: sha512-/Et7DwLqpjS47JPEcz6VnxU9PwcIdVi0ciLXRWBQdj1XFye68pSQYpV0QtPTfUKWuOaEig+/Vez2l74eDc1tPQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/caniuse-lite/-/caniuse-lite-1.0.30001558.tgz}
     name: caniuse-lite
-    version: 1.0.30001555
+    version: 1.0.30001558
 
   registry.npmmirror.com/chokidar@3.5.3:
     resolution: {integrity: sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/chokidar/-/chokidar-3.5.3.tgz}
@@ -421,6 +435,12 @@ packages:
     optionalDependencies:
       fsevents: registry.npmmirror.com/fsevents@2.3.3
     dev: true
+
+  registry.npmmirror.com/classnames@2.3.2:
+    resolution: {integrity: sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/classnames/-/classnames-2.3.2.tgz}
+    name: classnames
+    version: 2.3.2
+    dev: false
 
   registry.npmmirror.com/client-only@0.0.1:
     resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/client-only/-/client-only-0.0.1.tgz}
@@ -771,7 +791,7 @@ packages:
       '@next/env': registry.npmmirror.com/@next/env@14.0.0
       '@swc/helpers': registry.npmmirror.com/@swc/helpers@0.5.2
       busboy: registry.npmmirror.com/busboy@1.6.0
-      caniuse-lite: registry.npmmirror.com/caniuse-lite@1.0.30001555
+      caniuse-lite: registry.npmmirror.com/caniuse-lite@1.0.30001558
       postcss: registry.npmmirror.com/postcss@8.4.31
       react: registry.npmmirror.com/react@18.2.0
       react-dom: registry.npmmirror.com/react-dom@18.2.0(react@18.2.0)
@@ -817,7 +837,6 @@ packages:
     name: object-assign
     version: 4.1.1
     engines: {node: '>=0.10.0'}
-    dev: true
 
   registry.npmmirror.com/object-hash@3.0.0:
     resolution: {integrity: sha512-RSn9F68PjH9HqtltsSnqYC1XXoWe9Bju5+213R98cNGttag9q9yAOTzdbsqvIa7aNm5WffBZFpWYr2aWrklWAw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/object-hash/-/object-hash-3.0.0.tgz}
@@ -960,6 +979,16 @@ packages:
       picocolors: registry.npmmirror.com/picocolors@1.0.0
       source-map-js: registry.npmmirror.com/source-map-js@1.0.2
 
+  registry.npmmirror.com/prop-types@15.8.1:
+    resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/prop-types/-/prop-types-15.8.1.tgz}
+    name: prop-types
+    version: 15.8.1
+    dependencies:
+      loose-envify: registry.npmmirror.com/loose-envify@1.4.0
+      object-assign: registry.npmmirror.com/object-assign@4.1.1
+      react-is: registry.npmmirror.com/react-is@16.13.1
+    dev: false
+
   registry.npmmirror.com/queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/queue-microtask/-/queue-microtask-1.2.3.tgz}
     name: queue-microtask
@@ -990,6 +1019,17 @@ packages:
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
+  registry.npmmirror.com/react-intersection-observer@8.34.0(react@18.2.0):
+    resolution: {integrity: sha512-TYKh52Zc0Uptp5/b4N91XydfSGKubEhgZRtcg1rhTKABXijc4Sdr1uTp5lJ8TN27jwUsdXxjHXtHa0kPj704sw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/react-intersection-observer/-/react-intersection-observer-8.34.0.tgz}
+    id: registry.npmmirror.com/react-intersection-observer/8.34.0
+    name: react-intersection-observer
+    version: 8.34.0
+    peerDependencies:
+      react: ^15.0.0 || ^16.0.0 || ^17.0.0|| ^18.0.0
+    dependencies:
+      react: registry.npmmirror.com/react@18.2.0
+    dev: false
+
   registry.npmmirror.com/react-intersection-observer@9.5.2(react@18.2.0):
     resolution: {integrity: sha512-EmoV66/yvksJcGa1rdW0nDNc4I1RifDWkT50gXSFnPLYQ4xUptuDD4V7k+Rj1OgVAlww628KLGcxPXFlOkkU/Q==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/react-intersection-observer/-/react-intersection-observer-9.5.2.tgz}
     id: registry.npmmirror.com/react-intersection-observer/9.5.2
@@ -999,6 +1039,26 @@ packages:
       react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
     dependencies:
       react: registry.npmmirror.com/react@18.2.0
+    dev: false
+
+  registry.npmmirror.com/react-is@16.13.1:
+    resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/react-is/-/react-is-16.13.1.tgz}
+    name: react-is
+    version: 16.13.1
+    dev: false
+
+  registry.npmmirror.com/react-vertical-timeline-component@3.6.0(react@18.2.0):
+    resolution: {integrity: sha512-l9zulqjIGlRuaQeplGzV4r/tG2RYBpYt84Il8w4IxnJze2cDIGI04MKo3F7f1sHT0Sih1ohEFts8UV23AJS15Q==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/react-vertical-timeline-component/-/react-vertical-timeline-component-3.6.0.tgz}
+    id: registry.npmmirror.com/react-vertical-timeline-component/3.6.0
+    name: react-vertical-timeline-component
+    version: 3.6.0
+    requiresBuild: true
+    dependencies:
+      classnames: registry.npmmirror.com/classnames@2.3.2
+      prop-types: registry.npmmirror.com/prop-types@15.8.1
+      react-intersection-observer: registry.npmmirror.com/react-intersection-observer@8.34.0(react@18.2.0)
+    transitivePeerDependencies:
+      - react
     dev: false
 
   registry.npmmirror.com/react@18.2.0:
