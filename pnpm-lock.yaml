@@ -1029,7 +1029,7 @@ packages:
     dependencies:
       react: registry.npmmirror.com/react@18.2.0
     dev: false
-
+    
   registry.npmmirror.com/react-intersection-observer@9.5.2(react@18.2.0):
     resolution: {integrity: sha512-EmoV66/yvksJcGa1rdW0nDNc4I1RifDWkT50gXSFnPLYQ4xUptuDD4V7k+Rj1OgVAlww628KLGcxPXFlOkkU/Q==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/react-intersection-observer/-/react-intersection-observer-9.5.2.tgz}
     id: registry.npmmirror.com/react-intersection-observer/9.5.2
