@@ -34,7 +34,7 @@ const Skills = () => {
             viewport={{
               once: true,
             }}
-            className="bg-white border border-black/10 rounded-xl px-5 py-3"
+            className="bg-white borderBlack rounded-xl px-5 py-3"
             key={index}
             custom={index}
           >
