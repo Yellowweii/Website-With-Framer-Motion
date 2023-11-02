@@ -1,4 +1,5 @@
 import ActiveSectionContextProvider from "@/context/ActiveSectionContextProvider";
+import Footer from "@/sections/Footer";
 import Header from "@/sections/Header";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -20,6 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <ActiveSectionContextProvider>
           <Header />
           {children}
+          <Footer />
         </ActiveSectionContextProvider>
       </body>
     </html>
