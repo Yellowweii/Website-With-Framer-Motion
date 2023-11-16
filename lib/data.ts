@@ -56,22 +56,22 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
-    description: "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: "/corpcomment.png",
+    title: "tennis微信小程序",
+    description: "This is a tennis WeChat miniprogram developed for tennis enthusiasts.It includes an intelligent recommendation algorithm based on level and distance range.",
+    tags: ["微信小程序原生开发", "ColorUI组件库", "小程序云开发", "CMS后台管理", "Vant组件库"],
+    imageUrl: "https://www.yellowwei.cn/img/QR_Code3.jpg",
   },
   {
-    title: "rmtDev",
-    description: "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: "/rmtdev.png",
+    title: "怦动校园微信小程序",
+    description: "This is a WeChat miniprogram designed to help NTU students make friends and fall in love.",
+    tags: ["微信小程序原生开发", "Vant组件库", "Mysql", "SpringBoot", "Mybatis-Plus", "SpringMVC"],
+    imageUrl: "https://www.yellowwei.cn/img/QR_Code.jpg",
   },
   {
-    title: "Word Analytics",
-    description: "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: "/wordanalytics.png",
+    title: "技术博客",
+    description: "This is my personal blog built using the Butterfly theme in the Hexo framework. It is used to record some difficulties and unsolvable problems I encountered in my studies",
+    tags: ["Hexo", "MarkDown", "Butterfly", "CDN"],
+    imageUrl: "https://www.yellowwei.cn/img/example3.png",
   },
 ];
 
