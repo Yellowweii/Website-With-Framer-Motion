@@ -11,7 +11,7 @@ import { useActiveSectionContext } from "@/context/ActiveSectionContextProvider"
 
 export default function Experience() {
   const ref_two = React.useRef(null);
-  const inView_two = useInView(ref_two, { amount: 0.6, once: true });
+  const inView_two = useInView(ref_two, { amount: 0.5, once: true });
   const { setActiveSection } = useActiveSectionContext();
   const { ref } = useSectionInView("Experience", 0.6);
   const { theme } = useTheme();
@@ -24,7 +24,7 @@ export default function Experience() {
     <div ref={ref_two}>
       <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
         <SectionHeading>My experience</SectionHeading>
-        <VerticalTimeline lineColor="black">
+        <VerticalTimeline lineColor={theme === "light" ? "black" : ""}>
           {experiencesData.map((item, index) => (
             <React.Fragment key={index}>
               <VerticalTimelineElement

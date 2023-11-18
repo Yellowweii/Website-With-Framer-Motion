@@ -96,3 +96,54 @@ export const skillsData = [
   "Django",
   "Framer Motion",
 ] as const;
+
+export const settings = {
+  pauseOnHover: false,
+  infinite: true,
+  speed: 1000,
+  slidesToShow: 6,
+  slidesToScroll: 1,
+  autoplaySpeed: 1000,
+  autoplay: true,
+  loop: true,
+  cssEase: "linear",
+  arrows: false,
+  responsive: [
+    {
+      breakpoint: 1460,
+      settings: {
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        inifite: true,
+        dots: false,
+      },
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        inifite: true,
+        dots: false,
+      },
+    },
+    {
+      breakpoint: 640,
+      settings: {
+        slidesToShow: 3,
+        slideToscroll: 1,
+        inifite: true,
+        dots: false,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 2,
+        slideToscroll: 1,
+        inifite: true,
+        dots: false,
+      },
+    },
+  ],
+};
