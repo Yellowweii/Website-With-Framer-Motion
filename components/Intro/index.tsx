@@ -13,7 +13,7 @@ import { TypeAnimation } from "react-type-animation";
 const Intro = () => {
   const { ref } = useSectionInView("Home", 0.5);
   return (
-    <section ref={ref} id="home" className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[50rem]">
+    <section ref={ref} id="home" className=" max-w-[50rem] text-center sm:mb-0 scroll-mt-[50rem]">
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
