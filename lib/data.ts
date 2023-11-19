@@ -32,25 +32,27 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description: "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    title: "微信小程序开发",
+    location: "wxml、wxss、javascript、java、springboot、mysql",
+    description:
+      "With the help of a UI designer friend, I successfully developed a WeChat Miniprogram for making friends for my university (Nantong University). Now, the number of visits has reached 400 +.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023.05 - 2023.06",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description: "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+    title: "前端开发实习生",
+    location: "智子光年科技有限公司",
+    description:
+      "Under the guidance of tech experts, I learned how to write code in a standardized way, name variables in a standardized way, use git version control tools, Copilot code assistance tools, etc.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023.06 - 2023.09",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description: "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+    title: "2025届应届毕业生",
+    location: "南通大学",
+    description: "I am currently a third-year student in school, mainly studying technology stacks such as React，Next.js，TailwindCSS，TypeScript，Framer Motion.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023.09 - present",
   },
 ];
 
