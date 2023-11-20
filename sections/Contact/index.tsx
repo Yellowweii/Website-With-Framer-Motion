@@ -39,7 +39,7 @@ export default function Contact() {
       <form className="mt-10 flex flex-col dark:text-black">
         <input
           className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
-          name="senderEmail"
+          name="email"
           type="email"
           required
           maxLength={500}
