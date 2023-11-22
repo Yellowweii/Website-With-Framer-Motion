@@ -78,25 +78,23 @@ export const projectsData = [
 ];
 
 export const skillsData = [
-  "HTML",
-  "CSS",
+  "HTML5",
+  "CSS3",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
+  "TailwindCSS",
+  "Framer Motion",
+  "Vue.js",
   "Node.js",
   "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Java",
+  "MySQL",
+  "Spring",
+  "SpringMVC",
+  "Mybatis-Plus",
+  "SpringBoot",
 ] as const;
 
 export const settings = {
