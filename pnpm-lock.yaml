@@ -20,6 +20,12 @@ dependencies:
   next:
     specifier: 14.0.0
     version: registry.npmmirror.com/next@14.0.0(react-dom@18.2.0)(react@18.2.0)
+  next-theme:
+    specifier: ^0.1.5
+    version: registry.npmmirror.com/next-theme@0.1.5(next@14.0.0)(react-dom@18.2.0)(react@18.2.0)
+  next-themes:
+    specifier: ^0.2.1
+    version: registry.npmmirror.com/next-themes@0.2.1(next@14.0.0)(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: ^18.2.0
     version: registry.npmmirror.com/react@18.2.0
@@ -1065,6 +1071,12 @@ packages:
     name: lodash.debounce
     version: 4.0.8
     dev: false
+
+  registry.npmmirror.com/lodash.debounce@4.0.8:
+    resolution: {integrity: sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz}
+    name: lodash.debounce
+    version: 4.0.8
+    dev: false
     
   registry.npmmirror.com/loose-envify@1.4.0:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/loose-envify/-/loose-envify-1.4.0.tgz}
@@ -1155,6 +1167,37 @@ packages:
     version: 3.3.6
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
+
+  registry.npmmirror.com/next-theme@0.1.5(next@14.0.0)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-WR8UCLEFjWvRl+UO2lTM4pGo7R4jzGZqQ6YL3hiL1Ns587Qb91GhJZLPu/Aa4ExtGQ/5wlcDX8zDYZoCN9oDPw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/next-theme/-/next-theme-0.1.5.tgz}
+    id: registry.npmmirror.com/next-theme/0.1.5
+    name: next-theme
+    version: 0.1.5
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+    peerDependencies:
+      next: '*'
+      react: '*'
+      react-dom: '*'
+    dependencies:
+      next: registry.npmmirror.com/next@14.0.0(react-dom@18.2.0)(react@18.2.0)
+      react: registry.npmmirror.com/react@18.2.0
+      react-dom: registry.npmmirror.com/react-dom@18.2.0(react@18.2.0)
+    dev: false
+
+  registry.npmmirror.com/next-themes@0.2.1(next@14.0.0)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-B+AKNfYNIzh0vqQQKqQItTS8evEouKD7H5Hj3kmuPERwddR2TxvDSFZuTj6T7Jfn1oyeUyJMydPl1Bkxkh0W7A==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/next-themes/-/next-themes-0.2.1.tgz}
+    id: registry.npmmirror.com/next-themes/0.2.1
+    name: next-themes
+    version: 0.2.1
+    peerDependencies:
+      next: '*'
+      react: '*'
+      react-dom: '*'
+    dependencies:
+      next: registry.npmmirror.com/next@14.0.0(react-dom@18.2.0)(react@18.2.0)
+      react: registry.npmmirror.com/react@18.2.0
+      react-dom: registry.npmmirror.com/react-dom@18.2.0(react@18.2.0)
+    dev: false
 
   registry.npmmirror.com/next@14.0.0(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-J0jHKBJpB9zd4+c153sair0sz44mbaCHxggs8ryVXSFBuBqJ8XdE9/ozoV85xGh2VnSjahwntBZZgsihL9QznA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/next/-/next-14.0.0.tgz}
