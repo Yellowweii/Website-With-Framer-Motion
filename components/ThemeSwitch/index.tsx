@@ -1,10 +1,13 @@
 "use client";
-import { useTheme } from "@/context/ThemeContext";
+import { useTheme } from "next-themes";
 import React from "react";
 import { BsMoon, BsSun } from "react-icons/bs";
 
 const ThemeSwitch = () => {
-  const { theme, toggleTheme } = useTheme();
+  const { theme, setTheme } = useTheme();
+  const toggleTheme = () => {
+    setTheme(theme === "light" ? "dark" : "light");
+  };
   return (
     <button
       onClick={toggleTheme}
