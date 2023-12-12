@@ -8,6 +8,9 @@ const Footer = () => {
         <span className="font-semibold">About this website:</span> built with React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS, Framer Motion, React Email & Resend, Vercel
         hosting.
       </p>
+      <a href="https://beian.mps.gov.cn/">
+        <p className="text-xs mt-2"> 苏ICP备2023018894号-1</p>
+      </a>
     </footer>
   );
 };
