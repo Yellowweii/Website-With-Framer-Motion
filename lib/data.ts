@@ -86,6 +86,8 @@ export const skillsData = [
   "Next.js",
   "TailwindCSS",
   "Framer Motion",
+  "Flutter",
+  "Dart",
   "Vue.js",
   "Node.js",
   "Git",
