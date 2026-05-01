@@ -28,17 +28,17 @@ export default function Contact() {
     >
       <SectionHeading>Contact me</SectionHeading>
 
-      <p className="text-gray-700 -mt-6 dark:text-white/80">
+      <p className="text-gray-700 dark:text-gray-300 -mt-6">
         Please contact me directly at{" "}
-        <a className="underline" href="mailto:1119765689hw@gmail.com">
+        <a className="underline text-accent-500 hover:text-accent-600 transition-colors" href="mailto:1119765689hw@gmail.com">
           1119765689hw@gmail.com
         </a>{" "}
         or through this form.
       </p>
 
-      <form className="mt-10 flex flex-col dark:text-black">
+      <form className="mt-10 flex flex-col">
         <input
-          className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          className="h-14 px-4 rounded-lg borderBlack bg-white dark:bg-primary-800 text-gray-900 dark:text-gray-200 placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-accent-500 transition-all"
           name="email"
           type="email"
           required
@@ -46,7 +46,7 @@ export default function Contact() {
           placeholder="Your email"
         />
         <textarea
-          className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          className="h-52 my-3 rounded-lg borderBlack p-4 bg-white dark:bg-primary-800 text-gray-900 dark:text-gray-200 placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-accent-500 transition-all"
           name="message"
           placeholder="Your message"
           required

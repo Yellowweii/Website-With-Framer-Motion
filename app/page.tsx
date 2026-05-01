@@ -10,12 +10,12 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center px-4">
       <Intro />
-      <TechnologyShow />
-      <About />
+      {/*<TechnologyShow />*/}
+      {/*<About />*/}
       <Products />
       <Skills />
       <Experience />
-      <Contact />
+      {/*<Contact />*/}
     </main>
   );
 }

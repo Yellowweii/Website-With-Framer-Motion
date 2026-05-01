@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 html {
-  --line-color: black;
+  --line-color: rgba(0, 0, 0, 0.1);
 }
 
 html.dark {
-  --line-color: rgba(255, 255, 255, 0.2);
+  --line-color: rgba(255, 255, 255, 0.1);
 }
 
 .borderBlack {
-  @apply border border-black/10;
+  @apply border border-gray-200 dark:border-primary-700;
 }

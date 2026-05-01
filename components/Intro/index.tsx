@@ -13,7 +13,11 @@ import { TypeAnimation } from "react-type-animation";
 const Intro = () => {
   const { ref } = useSectionInView("Home", 0.5);
   return (
-    <section ref={ref} id="home" className=" max-w-[50rem] text-center sm:mb-0 scroll-mt-[50rem]">
+    <section
+      ref={ref}
+      id="home"
+      className=" max-w-[50rem] text-center sm:mb-0 scroll-mt-[50rem]"
+    >
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -49,13 +53,19 @@ const Intro = () => {
           </motion.span>
         </div>
       </div>
-      <motion.h1 className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl" initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }}>
-        <span className="font-bold">Hello, I'm Yellowwei.</span> I'm a <span className="font-bold">front-end developer</span> at NanTong University.
-        <br />
+      <motion.h1
+        className="mb-10 mt-4 px-4 text-xl font-medium !leading-[1.5] sm:text-3xl text-gray-900 dark:text-gray-200"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+      >
+        <span>Hello, I'm Yellowwei.</span> <br /> I'm a{" "}
+        <span className="font-bold">Front-End Engineer</span> at{" "}
+        <span className="font-bold">Huawei</span> with one year of professional
+        experience. <br />
         <TypeAnimation
           sequence={[
             // Same substring at the start will only be typed out once, initially
-            "I enjoy building sites and miniprograms.",
+            "I enjoy building websites、chrome extensions and mobile apps.",
             1000, // wait 1s before replacing "Mice" with "Hamsters"
             "My current focus is React (Next.js),TailwindCSS, Framer Motion.",
             1000,
@@ -74,31 +84,19 @@ const Intro = () => {
         }}
       >
         <Link
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          className="group bg-accent-500 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-accent-600 active:scale-105 transition shadow-md shadow-accent-500/20 font-medium"
           href="#contact"
         >
-          Contact me here <BsArrowRight className="group-hover:translate-x-1 transition opacity-70" />
+          Contact me here{" "}
+          <BsArrowRight className="group-hover:translate-x-1 transition opacity-90" />
         </Link>
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+          className="group bg-white dark:bg-primary-800 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack text-gray-900 dark:text-gray-200 hover:text-accent-500 dark:hover:text-accent-500"
           href="/CV.pdf"
           download
         >
-          Download CV <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-        </a>
-        <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/80"
-          href="https://github.com/yellowweii"
-          target="_blank"
-        >
-          <FaGithubSquare />
-        </a>
-        <a
-          className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/80"
-          href="https://linkedin.com"
-          target="_blank"
-        >
-          <BsLinkedin />
+          Download CV{" "}
+          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
       </motion.div>
     </section>

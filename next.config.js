@@ -2,7 +2,7 @@
 
 const nextConfig = {
   images: {
-    domains: ["www.yellowwei.cn"],
+    domains: ["www.yellowwei.cn", "images.unsplash.com"],
   },
 };
 
